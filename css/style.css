@@ -127,18 +127,40 @@ header{
   animation-name: none;
   }
 }
-/*Your code here again.*/ 
+
 
 
 
 @media print { 
+  body{
+    background-image:none;
+  }
 
-  /*Requirement 13*/
-  /*Requirement 14*/
-  /*Requirement 15*/
-  /*Requirement 16*/
-  /*Requirement 17*/
-  /*Requirement 18*/
- 
+  nav {
+      width:100%;
+  }
+
+  .nav_links{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .price{
+    align-items: flex-end;
+  }
+
+  .package{
+    border-width: 2px;
+    border-color: #45ADAD;
+    border-style: solid;
+    flex-basis: 200px;
+  }
+
+  .gallery{
+    display: none;
+  }
+  #gallery{
+    display: none;
+  }
 }
 
